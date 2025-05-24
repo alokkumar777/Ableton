@@ -11,6 +11,14 @@ body {
   overflow-x: hidden;
 }
 
+/* GSAP animation base styles to prevent FOUC */
+.gsap-fade-in,
+.gsap-fade-in-button,
+.gsap-fade-in-text,
+.gsap-fade-in-image {
+  opacity: 0;
+}
+
 /* ------------------ universal classes -------------------    */
 .mt {
   margin-top: 8rem;

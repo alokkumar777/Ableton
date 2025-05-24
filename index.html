@@ -37,7 +37,7 @@
     <header class="">
       <!-- nav bar -->
       <nav class="nav-bar border-bottom mx-3 mx-md-5 my-3 fs-5 pb-2">
-        <div class="logo"><i class="fa-solid fa-music"> Ableton</i></div>
+        <div class="logo gsap-fade-in"><i class="fa-solid fa-music"> Ableton</i></div>
 
         <!-- Hamburger menu button (visible on mobile) -->
         <div class="hamburger-menu">
@@ -63,13 +63,13 @@
 
         <!-- Buttons -->
         <div class="buttons">
-          <button class="btn fs-5 btn-outline-primary">
+          <button class="btn fs-5 btn-outline-primary gsap-fade-in-button">
             Try Live 12 for free
           </button>
-          <button class="btn ms-3 btn-dark">Log in or register</button>
+          <button class="btn ms-3 btn-dark gsap-fade-in-button">Log in or register</button>
         </div>
       </nav>
-      <div class="brand-txt container">
+      <div class="brand-txt container gsap-fade-in-text">
         <h1 class="display-1">Ableton</h1>
       </div>
     </header>
@@ -78,7 +78,7 @@
     <main>
       <!-- section1 -->
       <section class="mt common-sec-style" id="section1">
-        <div class="txsc-1 container">
+        <div class="txsc-1 container gsap-fade-in-text">
           <p class="mb-4 fs-2 fw-bold">
             We make <span>Live</span>, <span>Push</span>, <span>Note</span>,
             <span>Move</span> and <span>Link</span> — unique software and
@@ -91,7 +91,7 @@
             musicians, sound designers, and artists from across the world.
           </p>
         </div>
-        <div class="mt d-flex lysc-1 container">
+        <div class="mt d-flex lysc-1 container gsap-fade-in-image">
           <div class="flex-grow-1 bg-yellow"></div>
           <div class="flex-grow-1 lyimg1sc-1 rounded-end-pill"></div>
           <div class="flex-grow-1 lyimg2sc-1 rounded-start-pill"></div>
@@ -99,7 +99,7 @@
       </section>
       <!-- section2 -->
       <section class="mt common-sec-style" id="section2">
-        <div class="txsc-2 container">
+        <div class="txsc-2 container gsap-fade-in-text">
           <p class="mb-4 fs-2 fw-bold">
             Making music isn't easy. It takes time, effort, and learning. But when you're in the flow, it's incredibly rewarding.
           </p>
@@ -107,12 +107,12 @@
             We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.
           </p>
           <!-- video iframe -->
-          <div class="mt iframe-box rounded-pill">
+          <div class="mt iframe-box rounded-pill gsap-fade-in-image">
             <iframe class="rounded-pill" width="800" height="450" src="https://www.youtube.com/embed/HscrSwilshM?si=P1IR2XwznfNGcWjh&amp;start=112" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
        </section>
       <section class="mt common-sec-style" id="section3">
-        <div class="txsc-3 container">
+        <div class="txsc-3 container gsap-fade-in-text">
           <p class="mb-4 fs-2 fw-bold">
             We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.
           </p>
@@ -120,7 +120,7 @@
             Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.
           </p>
         </div>
-        <div class="mt d-flex lysc-3 container">
+        <div class="mt d-flex lysc-3 container gsap-fade-in-image">
           <div class="flex-grow-1 bg-green"></div>
           <div class="flex-grow-1 lyimg1sc-3 rounded-top-pill"></div>
           <div class="flex-grow-1 lyimg2sc-3 rounded-bottom-pill"></div>
@@ -138,5 +138,6 @@
 
     <!-- Custom JavaScript for mobile menu toggle -->
     <script src="scripts/navbar.js"></script>
+    <script src="./scripts/animations.js"></script>
   </body>
 </html>
